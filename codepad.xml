@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?> 
 <keyboard name="Codepad" script="latin" bottom_row="false">
-  <row>
-    <key key0="q" key7="1" key8="~"/>
-    <key key0="w" key7="2" key8="\@"/>
-    <key key0="e" key7="3" key8="\#"/>
-    <key key0="r" key7="4" key8="$"/>
-    <key key0="t" key7="5" key8="%"/>
-    <key key0="y" key7="6" key8="^"/>
-    <key key0="u" key7="7" key8="&amp;"/>
-    <key key0="i" key7="8" key8="*"/>
-    <key key0="o" key7="9" key3="(" key4=")"/>
-    <key key0="p" key7="0" key8="!"/>
-  </row>
-  <row>
-    <key width="0.5" key0="shift"/>
-    <key key0="a" key7="`" key8="copy"/>
-    <key key0="s" key8="paste"/>
-    <key key0="d"/>
-    <key key0="f"/>
-    <key key0="g" key7="-" key8="_"/>
-    <key key0="h" key7="=" key8="+"/>
-    <key key0="j" key4="}" key3="{"/>
-    <key key0="k" key3="[" key4="]"/>
-    <key key0="l" key7="|" key8="\\"/>
-    <key width="0.5" key0="shift"/>
-  </row>
-  <row>
-    <key width="1.5" key0="tab" key7="switch_clipboard"/>
-    <key key0="z"/>
-    <key key0="x"/>
-    <key key0="c" key7="&lt;" key8="."/>
-    <key key0="v" key7="&gt;" key8=","/>
-    <key key0="b" key7="\?" key8="/"/>
-    <key key0="n" key7=":" key8=";"/>
-    <key key0="m" key7="&quot;" key8="'"/>
-    <key width="1.5" key0="backspace" key2="delete"/>
- </row>
-  <row>
-    <key width="1.5" key0="ctrl" key2="meta" key3="switch_emoji" key4="switch_numeric"/>
-    <key width="1.5" key0="alt" key2="fn" key4="config"/>
-    <key width="4.0" key0="space" key5="cursor_left" key6="cursor_right" slider="true"/>
-    <key width="1.5" key0="esc" key7="up" key6="right" key5="left" key8="down"/>
-    <key width="1.5" key0="enter" key2="action"/>
-  </row>
-</keyboard>
+<row>
+<key c="q" n="1" s="~"/>
+<key c="w" n="2" s="\@"/>
+<key c="e" n="3" s="\#"/>
+<key c="r" n="4" s="$"/>
+<key c="t" n="5" s="%"/>
+<key c="y" n="6" s="^"/>
+<key c="u" n="7" s="&amp;"/>
+<key c="i" n="8" s="*"/>
+<key c="o" n="9" sw="(" se=")"/>
+<key c="p" n="0" s="!"/>
+</row>
+<row>
+<key width="0.5" c="shift"/>
+<key c="a" n="`" s="copy"/>
+<key c="s" s="paste"/>
+<key c="d" s="selectAll"/>
+<key c="f" n="-" s="_"/>
+<key c="g" n="up" e="right" w="left" s="down"/>
+<key c="h" n="=" s="+"/>
+<key c="j" n="{" s="["/>
+<key c="k" n="}" s="]"/>
+<key c="l" n="|" s="\\"/>
+<key width="0.5" c="shift"/>
+</row>
+<row>
+<key width="1.5" c="tab"/>
+<key c="z"/>
+<key c="x"/>
+<key c="c" n="&lt;" s="."/>
+<key c="v" n="&gt;" s=","/>
+<key c="b" n="\?" s="/"/>
+<key c="n" n=":" s=";"/>
+<key c="m" n="&quot;" s="'"/>
+<key width="1.5" c="backspace" ne="delete"/>
+</row>
+<row>
+<key width="1.5" c="ctrl" ne="meta" sw="switch_emoji" se="switch_numeric"/>
+<key width="1.5" c="alt" ne="fn" se="config"/>
+<key width="4.0" c="space" w="cursor_left" e="cursor_right" s="switch_forward"/>
+<key width="1.5" c="esc"/ >
+<key width="1.5" c="enter" ne="action"/>
+</row>
+</keyboard> 

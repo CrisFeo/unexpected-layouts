@@ -33,4 +33,16 @@
       s="down"/>
     <key c="enter" sw="action"/>
   </row>
+  <row>
+    <key width="0.5" c="0"/>
+    <key width="0.5" c="1"/>
+    <key width="0.5" c="2"/>
+    <key width="0.5" c="3"/>
+    <key width="0.5" c="4"/>
+    <key width="0.5" c="5"/>
+    <key width="0.5" c="6"/>
+    <key width="0.5" c="7"/>
+    <key width="0.5" c="8"/>
+    <key width="0.5" c="9"/>
+  </row>
 </keyboard>
