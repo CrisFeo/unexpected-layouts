@@ -18,7 +18,7 @@
 <key c="s" s="paste"/>
 <key c="d" s="selectAll"/>
 <key c="f" n="-" s="_"/>
-<key c="g" n="up" e="right" w="left" s="down"/>
+<key c="g" n="cursor_up" e="cursor_right" w="cursor_left" s="cursor_down"/>
 <key c="h" n="=" s="+"/>
 <key c="j" n="{" s="["/>
 <key c="k" n="}" s="]"/>
@@ -26,7 +26,7 @@
 <key width="0.5" c="shift"/>
 </row>
 <row>
-<key width="1.5" c="tab"/>
+<key width="1.5" c="tab" nw="capslock"/>
 <key c="z"/>
 <key c="x"/>
 <key c="c" n="&lt;" s="."/>
@@ -39,8 +39,8 @@
 <row>
 <key width="1.5" c="ctrl" ne="meta" sw="switch_emoji" se="switch_numeric"/>
 <key width="1.5" c="alt" ne="fn" se="config"/>
-<key width="4.0" c="space" w="cursor_left" e="cursor_right" s="switch_forward"/>
+<key width="4.0" c="space" e="cursor_right" w="cursor_left" s="switch_forward"/>
 <key width="1.5" c="esc"/ >
 <key width="1.5" c="enter" ne="action"/>
 </row>
-</keyboard> 
+</keyboard>
