@@ -1,41 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <keyboard bottom_row="false" width="6.0" name="One Hand" script="latin">
   <row>
-    <key c="esc" s="switch_forward"/>
-    <key c="a" se="v"/>
-    <key c="n" s="l"/>
-    <key c="i" sw="x"/>
-    <key c="backspace" s="delete"/>
+    <key c="esc" />
+    <key c="a" se="v" />
+    <key c="n" s="l" />
+    <key c="i" sw="x" />
+    <key c="backspace" s="delete" />
   </row>
   <row>
-    <key c="tab" s="copy"/>
-    <key c="h" e="k"/>
-    <key c="o" nw="q" n="u" ne="p" w="c" e="b" sw="g" s="d" se="j"/>
-    <key c="r" w="m"/>
-    <key c="shift" s="switch_emoji"/>
+    <key c="shift" s="copy" />
+    <key c="h" e="k" />
+    <key
+      nw="q" n="u" ne="p"
+      w="c" c="o" e="b"
+      sw="g" s="d" se="j"
+    />
+    <key c="r" w="m" />
+    <key c="tab" s="switch_emoji" />
   </row>
   <row>
-    <key c="ctrl" s="paste"/>
-    <key c="t" ne="y"/>
-    <key c="e" n="w" e="z"/>
-    <key c="s" nw="f"/>
-    <key c="switch_numeric" w="left" e="right" n="up" s="down"/>
+    <key c="ctrl" s="paste" />
+    <key c="t" ne="y" />
+    <key c="e" n="w" e="z" />
+    <key c="s" nw="f" />
+    <key c="switch_numeric" />
   </row>
   <row>
-    <key c="alt" s="config"/>
-    <key width="3" c="space" w="cursor_left" e="cursor_right" s="switch_forward"/>
-    <key c="enter" sw="action"/>
+    <key c="alt" s="config" />
+    <key
+      width="3"
+      c="space"
+      w="cursor_left"
+      e="cursor_right"
+      n="switch_forward"
+    />
+    <key c="enter" sw="action" />
   </row>
   <row>
-    <key width="0.5" c="0"/>
-    <key width="0.5" c="1"/>
-    <key width="0.5" c="2"/>
-    <key width="0.5" c="3"/>
-    <key width="0.5" c="4"/>
-    <key width="0.5" c="5"/>
-    <key width="0.5" c="6"/>
-    <key width="0.5" c="7"/>
-    <key width="0.5" c="8"/>
-    <key width="0.5" c="9"/>
+    <key width="0.5" c="0" />
+    <key width="0.5" c="1" />
+    <key width="0.5" c="2" />
+    <key width="0.5" c="3" />
+    <key width="0.5" c="4" />
+    <key width="0.5" c="5" />
+    <key width="0.5" c="6" />
+    <key width="0.5" c="7" />
+    <key width="0.5" c="8" />
+    <key width="0.5" c="9" />
   </row>
 </keyboard>
