@@ -29,8 +29,8 @@
       c="space"
       w="cursor_left"
       e="cursor_right"
-      n="up"
-      s="down"/>
+      n="cursor_up"
+      s="cursor_down"/>
     <key width="1.5" c="enter" sw="action"/>
   </row>
   <row>

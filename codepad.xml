@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?> 
-<keyboard name="Codepad" script="latin" bottom_row="false">
+<keyboard
+  name="Codepad"
+  script="latin"
+  bottom_row="false"
+>
 <row>
 <key c="q" n="1" s="!"/>
 <key c="w" n="2" s="\@"/>
@@ -18,7 +22,13 @@
 <key c="s" n="~" s="paste"/>
 <key c="d" s="selectAll"/>
 <key c="f" n="-" s="_"/>
-<key c="g" n="cursor_up" e="cursor_right" w="cursor_left" s="cursor_down"/>
+<key
+  c="g"
+  n="cursor_up"
+  e="cursor_right"
+  w="cursor_left"
+  s="cursor_down"
+/>
 <key c="h" n="=" s="+"/>
 <key c="j" n="{" s="["/>
 <key c="k" n="}" s="]"/>
@@ -37,10 +47,16 @@
 <key width="1.5" c="backspace" ne="delete"/>
 </row>
 <row>
-<key width="1.5" c="ctrl" ne="meta" sw="switch_emoji" se="switch_numeric"/>
-<key width="1.5" c="alt" ne="fn" se="config"/>
-<key width="4.0" c="space" e="cursor_right" w="cursor_left" s="switch_forward"/>
-<key width="1.5" c="esc"/ >
+<key width="1.5" c="ctrl" nw="switch_emoji"/>
+<key width="1.5" c="alt" nw="config"/>
+<key
+  width="4.0"
+  c="space"
+  e="cursor_right"
+  w="cursor_left"
+  s="switch_forward"
+/>
+<key width="1.5" c="esc" ne="switch_numeric"/>
 <key width="1.5" c="enter" ne="action"/>
 </row>
 </keyboard>
