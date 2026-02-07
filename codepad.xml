@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <keyboard name="Codepad" script="latin" bottom_row="false">
 <row>
-<key c="q" n="1" s="~"/>
+<key c="q" n="1" s="!"/>
 <key c="w" n="2" s="\@"/>
 <key c="e" n="3" s="\#"/>
 <key c="r" n="4" s="$"/>
@@ -9,13 +9,13 @@
 <key c="y" n="6" s="^"/>
 <key c="u" n="7" s="&amp;"/>
 <key c="i" n="8" s="*"/>
-<key c="o" n="9" sw="(" se=")"/>
-<key c="p" n="0" s="!"/>
+<key c="o" n="9" s="("/>
+<key c="p" n="0" s=")"/>
 </row>
 <row>
 <key width="0.5" c="shift"/>
 <key c="a" n="`" s="copy"/>
-<key c="s" s="paste"/>
+<key c="s" n="~" s="paste"/>
 <key c="d" s="selectAll"/>
 <key c="f" n="-" s="_"/>
 <key c="g" n="cursor_up" e="cursor_right" w="cursor_left" s="cursor_down"/>
